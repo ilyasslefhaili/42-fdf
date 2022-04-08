@@ -27,7 +27,7 @@ SRCSB = fdf_bonus.c\
 		checkmap_b.c\
 		checkmap_util_b.c\
 		drawing_bonus.c\
-		get_next_line.c
+		get_next_line_bonus.c
 
 OBJS = $(subst  .c,.o, $(SRCS))
 
