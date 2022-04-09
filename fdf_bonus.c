@@ -92,7 +92,6 @@ int	main(int ac, char **av)
 	ft_while(m.inc, img, m.ar);
 	mlx_put_image_to_window(m.mlx, m.mlx_win, img.img, 0, 0);
 	mlx_hook(m.mlx_win, 17, 0, ft_close_x, &m);
-	mlx_mouse_hook(m.mlx_win, ft_hook, &m);
 	mlx_key_hook(m.mlx_win, ft_hook, &m);
 	mlx_loop(m.mlx);
 }
